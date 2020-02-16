@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="android.mightychukchee.org.guessinggamea.MainActivity"
+      tools:ignore="ExtraText">
+    <item
+            android:id="@+id/action_newgame"
+            android:title="New Game"
+            />
+    <item
+            android:id="@+id/action_gamestats"
+            android:title="Game Stats" />
+    <item
+            android:id="@+id/action_settings"
+            android:title="@string/action_settings"
+
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/action_about"
+            android:title="About"
+            android:orderInCategory="100"/>
+</menu>
